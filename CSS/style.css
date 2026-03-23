@@ -497,3 +497,18 @@ div[class|="wrapper__services__variant"]{
 	width: 1170px;
 	height: 678px;
 }
+
+.wrapper__contacts__hero{
+	display: flex;
+	background-color: #ffffff;
+	height: 568px;
+	width: 1120px;
+	padding: 50px;
+	border-radius: 15px;
+	justify-content: end;
+}
+
+.wrapper__contacts__img{
+	width: 653px;
+	height: 528px;
+}
