@@ -571,6 +571,76 @@ div[class|="wrapper__services__variant"]{
 	border-bottom: none;
 }
 
-.wrapper__contacts__img{
-	padding-bottom: 0;
+/*Footer*/
+
+.footer{
+	display: flex;
+	border-radius: 20px;
+	background-color: #333333;
+	margin-block: 60px;
+	width: 1080px;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 45px;
+	justify-content: space-between;
+	overflow: hidden;
+	position: relative;
+}
+
+.icon{
+	height: 25px;
+	width: 25px;
+	transition: all 50ms ease;
+}
+
+.footer__modificaton,
+.footer__details,
+.footer__right__icons{
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.footer__text{
+	width: 302px;
+}
+
+.fooer__left-text{
+	margin-bottom: 20px;
+	line-height: 200%;
+}
+
+.footer__center__text{
+	width: auto;
+}
+
+.footer__modification{
+	margin-bottom: 20px;
+}
+
+.footer__left__details{
+	margin-top: 40px;
+}
+
+.footer__right-logo{
+	position: absolute;
+	left:65%;
+	top:35%;
+}
+
+.icon-github{
+	filter: invert(71%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(89%) contrast(92%);
+}
+
+.icon:hover{
+	 filter: brightness(0) saturate(100%) invert(86%) sepia(21%) saturate(2035%) hue-rotate(331deg) brightness(101%) contrast(88%);
+}
+
+.icon:focus-visible{
+	filter: brightness(0) saturate(100%) invert(64%) sepia(87%) saturate(356%) hue-rotate(1deg) brightness(91%) contrast(89%);
+}
+
+.icon:active{
+	  filter: brightness(0) saturate(100%) invert(46%) sepia(86%) saturate(632%) hue-rotate(5deg) brightness(91%) contrast(93%);
 }
