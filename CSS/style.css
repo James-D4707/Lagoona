@@ -499,6 +499,10 @@ div[class|="wrapper__services__variant"]{
 .number{
 	border-bottom: #999999;
 }
+
+.form__selected option{
+background-color:#ffffff;}
+
 /*Contacts*/
 .wrapper__contacts{
 	width: 1170px;
